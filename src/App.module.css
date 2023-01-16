@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculadora {
+    margin-top: 1.5rem;
+    width: 24.375rem;
+    height: 52.75rem;
+
+    border-radius: 40px;
+
+    background: var(--black);
+}
+
+.display {
+    width: 376px;
+    height: 321px;
+    margin: 0 0.5rem;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    background-color: yellow;
+}
+
+.teclado {
+    width: 376px;
+    height: 518px;
+    margin: 0 0.5rem 3.2rem 0.5rem;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    background-color: red;
+}
