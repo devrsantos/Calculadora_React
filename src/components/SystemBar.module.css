@@ -1,0 +1,41 @@
+.container {
+    width: 23.4rem;
+    height: 2.75rem;
+
+    margin-top: 0;
+    margin-left: 0.5px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border: 0px;
+
+    background: var(--black);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.displayTime {
+    width: 3.375rem;
+    height: 1.31rem;
+    margin-left: 1.31rem;
+}
+
+.displayStatus {
+    width: 4.16rem;
+    height: 0.70rem;
+    margin-right: 0.89rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.time {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 1rem;
+    color: var(--white);
+}

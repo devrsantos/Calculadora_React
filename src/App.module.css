@@ -4,7 +4,7 @@
   align-items: center;
 }
 
-.calculadora {
+.calculator {
     margin-top: 1.5rem;
     width: 24.375rem;
     height: 52.75rem;
@@ -23,7 +23,7 @@
     background-color: yellow;
 }
 
-.teclado {
+.keyboard {
     width: 376px;
     height: 518px;
     margin: 0 0.5rem 3.2rem 0.5rem;
