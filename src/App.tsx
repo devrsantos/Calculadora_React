@@ -1,6 +1,8 @@
 import "./global.css";
 import styles from "./App.module.css";
 import { SystemBar } from "./components/SystemBar";
+import { KeyBoard } from "./components/KeyBoard";
+import { Button } from "./components/Button";
 
 const App = () => {
   return (
@@ -10,10 +12,12 @@ const App = () => {
           <SystemBar></SystemBar>
           <div className={styles.displayCalc}></div>
         </div>
-        <div className={styles.keyboard}></div>
+        <div className={styles.keyboard}>
+          <KeyBoard></KeyBoard>
+        </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export { App }
+export { App };

@@ -1,0 +1,21 @@
+.container {
+  width: 4.68rem;
+  height: 4.68rem;
+  background: var(--gray-800);
+  color: var(--white);
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  
+  border-radius: 9px;
+}
+
+.clear {
+  background: var(--red-500);
+}
+
+.amount {
+  background: var(--green-400);
+}

@@ -1,0 +1,14 @@
+.container {
+    width: 23.43rem;
+    height: 30.75rem;
+    padding-top: 1.56rem;
+}
+
+.line {
+    width: 22rem;
+    height: 4.68rem;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0.75rem;
+    margin-bottom: 1.25rem;
+}
