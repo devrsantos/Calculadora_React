@@ -12,8 +12,13 @@ const App = () => {
           <SystemBar></SystemBar>
           <div className={styles.displayCalc}></div>
         </div>
+        <hr className={styles.designLine} />
         <div className={styles.keyboard}>
+          
           <KeyBoard></KeyBoard>
+          <footer>
+            <div className={styles.microphone}></div>
+          </footer>
         </div>
       </div>
     </div>

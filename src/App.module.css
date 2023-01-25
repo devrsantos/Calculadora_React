@@ -15,18 +15,40 @@
 }
 
 .display {
-    width: 376px;
-    height: 321px;
+    width: 23.5rem;
+    height: 20.06rem;
     margin: 0 0.5rem;
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
-    background-color: yellow;
+}
+
+.designLine {
+    width: 90%;
+    margin: 0 19px;
 }
 
 .keyboard {
-    width: 376px;
-    height: 518px;
+    width: 23.5rem;
+    height: 32.375rem;
     margin: 0 0.5rem 3.2rem 0.5rem;
     border-bottom-right-radius: 40px;
     border-bottom-left-radius: 40px;
+}
+
+footer {
+    width: 23.43rem;
+    height: 1.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+footer div {
+    background: var(--white);
+    width: 8.43rem;
+    height: 0.31rem;
+    border-radius: 100px;
 }
