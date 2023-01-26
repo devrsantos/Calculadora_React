@@ -36,6 +36,29 @@
     color: var(--gray-400);
 
     display: flex;
+    justify-content: end;
+}
+
+.icons {
+    width: 22rem;
+    height: 2.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.iconRoles {
+    width: 11rem;
+    height: 2.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.iconsBackspace {
+    width: 11rem;
+    height: 2.75rem;
+    display: flex;
     align-items: center;
     justify-content: end;
 }

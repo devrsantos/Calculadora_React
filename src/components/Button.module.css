@@ -16,7 +16,7 @@
   background: var(--red-500);
   width: 4.68rem;
   height: 4.68rem;
-  color: var(--black);
+  color: var(--gray-800);
 
   font-style: normal;
   font-weight: 400;
@@ -30,7 +30,7 @@
   background: var(--green-400);
   width: 4.68rem;
   height: 4.68rem;
-  color: var(--black);
+  color: var(--gray-800);
 
   font-style: normal;
   font-weight: 400;
