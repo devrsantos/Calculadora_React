@@ -1,0 +1,41 @@
+.container {
+  width: 22.43rem;
+  height: 14.37rem;
+
+  margin: 28px 12px 20px 12px;
+}
+
+.amount {
+    height: 3.56rem;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-bottom: 4.5rem;
+}
+
+.amount p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.5rem;
+    line-height: 1rem;
+  
+    text-align: right;
+    color: var(--white);
+}
+
+.result {
+    width: 100%;
+    height: 3.5rem;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.5rem;
+    line-height: 16px;
+    /* or 33% */
+
+    text-align: right;
+    color: var(--gray-400);
+
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
